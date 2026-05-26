@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME PAGE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome.css') }}">
+</head>
+<body>
+    <form class="myForm" method="POST">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <b>{{ message }}</b>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <h1>REGISTRATION FORM</h1>
+        <label>User Name:</label>
+        <input type="text" name="username" placeholder="Enter your Name" required>
+        <label>User Email:</label>
+        <input type="email" name="useremail" placeholder="Enter your Email" required>
+        <label>User Password</label>
+        <input type="password" name="userpassword" placeholder="Enter your Passwrd" required>
+        <label>User Contact:</label>
+        <input type="text" name="usercontact" placeholder="Enter your Contact Number" required>
+        <button>Submit</button>
+    </form>
+    <!--<div class="last">
+        <a href="#"><button>Login</button></a>
+        <a href="#"><button>Register</button></a>
+    </div>-->
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORGOT PASSWORD</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome.css') }}">
+</head>
+<body>
+    <form class="myForm" method="post">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <b>{{ message }}</b>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <h1>LOGIN</h1>
+        <label>User Email:</label>
+        <input type="email" name="useremail" placeholder="Enter your Email" required>
+        <button>Submit</button>
+    </form>
+    <!--<a href="#"><button>Forgot Password</button></a>-->
+   
+</body>
+</html>
+
+
+
+ <!--<div class="last">
+            <a href="#"><button>REGISTER</button></a>
+            <a href="./register.html"><button>LOGIN</button></a> 
+        </div>-->

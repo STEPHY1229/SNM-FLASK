@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome.css') }}">
+</head>
+<body>
+    <!-- <form class="myForm">
+        <h1>WELCOME</h1>
+        <label>User Email:</label>
+        <input type="email" placeholder="Enter your Email">
+        <label>LOGIN</label>
+        <input type="password" placeholder="Enter your Passwrd">
+    </form> -->
+    <center><h1>WELCOME TO STUDENT MANAGEMENT DATA</h1></center>
+    <div class="last">
+            <a href="{{url_for('register')}}"><button>REGISTER</button></a>
+            <a href="{{url_for('login')}}"><button>LOGIN</button></a> 
+        </div>
+</body>
+</html>

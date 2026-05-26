@@ -1,0 +1,515 @@
+Microsoft Windows [Version 10.0.22631.5472]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>.\psnm\Scripts\activate
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>code .
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 11:13:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:13:30] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:13:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2026 11:13:35] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:13:35] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:13:40] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 11:13:40] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:13:40] "GET /static/welcome.css HTTP/1.1" 304 -
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+127.0.0.1 - - [22/May/2026 11:13:52] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 11:13:52] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:13:52] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:13:57] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:13:57] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:13:57] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+  File "C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM\app.py", line 252
+    return render_template('viewnotes.html')
+    ^^^^^^
+IndentationError: expected an indented block after 'else' statement on line 250
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:42:38] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:42:38] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:42:38] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:42:44] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:42:44] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:42:44] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:42:45] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:42:45] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:42:45] "GET /static/dashboard.css HTTP/1.1" 304 -
+Not all parameters were used in the SQL statement
+127.0.0.1 - - [22/May/2026 11:42:47] "GET /viewnotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 11:42:47] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:42:47] "GET /static/dashboard.css HTTP/1.1" 304 -
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 11:43:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:43:16] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:43:18] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:43:18] "GET /static/welcome.css HTTP/1.1" 304 -
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+127.0.0.1 - - [22/May/2026 11:43:27] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 11:43:27] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:43:27] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:43:30] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:43:30] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:43:30] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+Not all parameters were used in the SQL statement
+127.0.0.1 - - [22/May/2026 11:43:31] "GET /viewnotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 11:43:32] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:43:32] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:44:48] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:44:48] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:44:51] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:44:51] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:44:51] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+Not all parameters were used in the SQL statement
+127.0.0.1 - - [22/May/2026 11:44:53] "GET /viewnotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 11:44:53] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:44:53] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:44:54] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:44:54] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:44:57] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:44:57] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:44:57] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:46:13] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:46:13] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:46:13] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:49:58] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:49:59] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:49:59] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:49:59] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:49:59] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:49:59] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:50:12] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:50:12] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:50:12] "GET /static/addnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 11:51:36] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:51:37] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:51:37] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:51:38] "GET /viewnotes/3 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:51:38] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:51:38] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:51:43] "GET /viewnotes/4 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 11:51:43] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 11:51:43] "GET /static/addnotes.css HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 12:06:10] "GET /viewnotes/4 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:11] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:11] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:12] "GET /viewnotes/4 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:12] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:12] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:12] "GET /viewnotes/4 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:12] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:12] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:06:15] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:15] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:15] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:18] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:18] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:18] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:06:21] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:21] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:21] "GET /static/dashboard.css HTTP/1.1" 304 -
+1292 (22007): Truncated incorrect DOUBLE value: '[0]'
+127.0.0.1 - - [22/May/2026 12:06:25] "GET /deletenotes/[0] HTTP/1.1" 302 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:06:25] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:25] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:25] "GET /static/dashboard.css HTTP/1.1" 304 -
+1292 (22007): Truncated incorrect DOUBLE value: '[0]'
+127.0.0.1 - - [22/May/2026 12:06:32] "GET /deletenotes/[0] HTTP/1.1" 302 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:06:32] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:06:32] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:06:32] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+1292 (22007): Truncated incorrect DOUBLE value: '[0]'
+127.0.0.1 - - [22/May/2026 12:07:53] "GET /deletenotes/[0] HTTP/1.1" 302 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:07:53] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:07:53] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:07:53] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 12:12:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:12:16] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:12:17] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:12:17] "GET /static/welcome.css HTTP/1.1" 304 -
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+127.0.0.1 - - [22/May/2026 12:12:28] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 12:12:28] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:12:28] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:12:32] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:12:32] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:12:32] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:12:34] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:12:34] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:12:34] "GET /static/addnotes.css HTTP/1.1" 304 -
+1292 (22007): Truncated incorrect DOUBLE value: '[0]'
+127.0.0.1 - - [22/May/2026 12:12:39] "GET /deletenotes/[0] HTTP/1.1" 302 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:12:39] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:12:39] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:12:39] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:17:25] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:17:25] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:17:25] "GET /static/addnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:20:04] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:20:04] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:20:04] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:20:07] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:20:07] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:20:07] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:20:23] "POST /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:20:23] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:20:23] "GET /static/addnotes.css HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 12:31:58] "GET /updatenotes/1 HTTP/1.1" 200 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:32:01] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:01] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:01] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:32:02] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:02] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:02] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:03] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:03] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:03] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:31] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:31] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:31] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:32] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:32] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:32] "GET /static/addnotes.css HTTP/1.1" 304 -
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 12:32:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:47] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:32:50] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:50] "GET /static/welcome.css HTTP/1.1" 304 -
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+127.0.0.1 - - [22/May/2026 12:32:59] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 12:32:59] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:32:59] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:33:01] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:01] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:01] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:03] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:03] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:03] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:07] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:07] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:07] "GET /static/dashboard.css HTTP/1.1" 304 -
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updated notesdata set notestitle='The Last Leaf',notes_description='The Last Lea' at line 1
+127.0.0.1 - - [22/May/2026 12:33:13] "POST /updatenotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 12:33:13] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:13] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:13] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:33:57] "GET /static/dashboard.css HTTP/1.1" 304 -
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updated notesdata set notestitle='The Last Leaf',notes_description='The Last Lea' at line 1
+127.0.0.1 - - [22/May/2026 12:34:03] "POST /updatenotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 12:34:03] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:34:03] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:34:03] "GET /static/dashboard.css HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 12:35:04] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:04] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:04] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:09] "POST /updatenotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 12:35:09] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:09] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:09] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:18] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:18] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:18] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:35:21] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:21] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:21] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:35:22] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:22] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:22] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:24] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:24] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:24] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:28] "GET /viewnotes/2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:35:28] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:35:28] "GET /static/addnotes.css HTTP/1.1" 304 -
+1292 (22007): Truncated incorrect DOUBLE value: '[0]'
+127.0.0.1 - - [22/May/2026 12:36:15] "GET /deletenotes/[0] HTTP/1.1" 302 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:36:15] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:36:15] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:36:15] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:38:02] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:38:02] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:02] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (2, 'The Last Leaf', datetime.datetime(2026, 5, 21, 12, 1, 10)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:38:03] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:38:03] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:03] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:04] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:38:04] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:04] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:09] "GET /viewnotes/2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:38:09] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:09] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:14] "GET /updatenotes/2 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:38:14] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:14] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:19] "GET /deletenotes/2 HTTP/1.1" 302 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6))]
+127.0.0.1 - - [22/May/2026 12:38:19] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:38:19] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:38:19] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:14] "GET /addnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:39:14] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:14] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:53] "POST /addnotes HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 12:39:53] "GET /addnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:39:53] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:53] "GET /static/addnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6)), (5, 'Electrical Machines', datetime.datetime(2026, 5, 22, 12, 39, 52))]
+127.0.0.1 - - [22/May/2026 12:39:56] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:39:56] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:56] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:59] "GET /viewnotes/5 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:39:59] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:39:59] "GET /static/addnotes.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6)), (5, 'Electrical Machines', datetime.datetime(2026, 5, 22, 12, 39, 52))]
+127.0.0.1 - - [22/May/2026 12:40:02] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:40:02] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:40:02] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:40:04] "GET /updatenotes/5 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:40:04] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:40:04] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6)), (5, 'Electrical Machines', datetime.datetime(2026, 5, 22, 12, 39, 52))]
+127.0.0.1 - - [22/May/2026 12:40:06] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:40:06] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 12:40:06] "GET /static/dashboard.css HTTP/1.1" 304 -
+ * Detected change in 'C:\\Users\\STEPHY HALLEL\\Desktop\\STEPHY-F\\PROJECT_SNM\\app.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM\app.py", line 9, in <module>
+    import flask_excel as excel # used to generate excel files
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'flask_excel'
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>pip install flask_excel
+Collecting flask_excel
+  Downloading Flask_Excel-0.0.7-py2.py3-none-any.whl.metadata (16 kB)
+Collecting pyexcel-webio>=0.1.2 (from flask_excel)
+  Downloading pyexcel_webio-0.1.4-py2.py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: Flask>=0.10.1 in .\psnm\Lib\site-packages (from flask_excel) (3.1.3)
+Requirement already satisfied: blinker>=1.9.0 in .\psnm\Lib\site-packages (from Flask>=0.10.1->flask_excel) (1.9.0)
+Requirement already satisfied: click>=8.1.3 in .\psnm\Lib\site-packages (from Flask>=0.10.1->flask_excel) (8.3.3)
+Requirement already satisfied: itsdangerous>=2.2.0 in .\psnm\Lib\site-packages (from Flask>=0.10.1->flask_excel) (2.2.0)
+Requirement already satisfied: jinja2>=3.1.2 in .\psnm\Lib\site-packages (from Flask>=0.10.1->flask_excel) (3.1.6)
+Requirement already satisfied: markupsafe>=2.1.1 in .\psnm\Lib\site-packages (from Flask>=0.10.1->flask_excel) (3.0.3)
+Requirement already satisfied: werkzeug>=3.1.0 in .\psnm\Lib\site-packages (from Flask>=0.10.1->flask_excel) (3.1.8)
+Requirement already satisfied: colorama in .\psnm\Lib\site-packages (from click>=8.1.3->Flask>=0.10.1->flask_excel) (0.4.6)
+Collecting pyexcel>=0.5.6 (from pyexcel-webio>=0.1.2->flask_excel)
+  Downloading pyexcel-0.7.4-py2.py3-none-any.whl.metadata (65 kB)
+Collecting lml>=0.2.0 (from pyexcel>=0.5.6->pyexcel-webio>=0.1.2->flask_excel)
+  Downloading lml-0.2.0-py2.py3-none-any.whl.metadata (7.9 kB)
+Collecting pyexcel-io>=0.6.2 (from pyexcel>=0.5.6->pyexcel-webio>=0.1.2->flask_excel)
+  Downloading pyexcel_io-0.6.7-py2.py3-none-any.whl.metadata (26 kB)
+Collecting texttable>=0.8.2 (from pyexcel>=0.5.6->pyexcel-webio>=0.1.2->flask_excel)
+  Downloading texttable-1.7.0-py2.py3-none-any.whl.metadata (9.8 kB)
+Downloading Flask_Excel-0.0.7-py2.py3-none-any.whl (12 kB)
+Downloading pyexcel_webio-0.1.4-py2.py3-none-any.whl (11 kB)
+Downloading pyexcel-0.7.4-py2.py3-none-any.whl (89 kB)
+Downloading lml-0.2.0-py2.py3-none-any.whl (10 kB)
+Downloading pyexcel_io-0.6.7-py2.py3-none-any.whl (44 kB)
+Downloading texttable-1.7.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: texttable, lml, pyexcel-io, pyexcel, pyexcel-webio, flask_excel
+Successfully installed flask_excel-0.0.7 lml-0.2.0 pyexcel-0.7.4 pyexcel-io-0.6.7 pyexcel-webio-0.1.4 texttable-1.7.0
+
+[notice] A new release of pip is available: 26.0.1 -> 26.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>pip install pyexcel-xlsx==0.6.0
+Collecting pyexcel-xlsx==0.6.0
+  Downloading pyexcel_xlsx-0.6.0-py2.py3-none-any.whl.metadata (16 kB)
+Collecting openpyxl>=2.6.1 (from pyexcel-xlsx==0.6.0)
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: pyexcel-io>=0.6.2 in .\psnm\Lib\site-packages (from pyexcel-xlsx==0.6.0) (0.6.7)
+Collecting et-xmlfile (from openpyxl>=2.6.1->pyexcel-xlsx==0.6.0)
+  Downloading et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: lml>=0.0.4 in .\psnm\Lib\site-packages (from pyexcel-io>=0.6.2->pyexcel-xlsx==0.6.0) (0.2.0)
+Downloading pyexcel_xlsx-0.6.0-py2.py3-none-any.whl (9.6 kB)
+Downloading openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: et-xmlfile, openpyxl, pyexcel-xlsx
+Successfully installed et-xmlfile-2.0.0 openpyxl-3.1.5 pyexcel-xlsx-0.6.0
+
+[notice] A new release of pip is available: 26.0.1 -> 26.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 13:01:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:01:21] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:01:24] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:01:24] "GET /static/welcome.css HTTP/1.1" 304 -
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+127.0.0.1 - - [22/May/2026 13:01:32] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 13:01:32] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:01:33] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:01:36] "GET /getexceldata HTTP/1.1" 200 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6)), (5, 'Electrical Machines', datetime.datetime(2026, 5, 22, 12, 39, 52))]
+127.0.0.1 - - [22/May/2026 13:04:58] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:04:58] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:04:58] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:00] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:00] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:00] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:09] "GET /viewnotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:09] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:09] "GET /static/dashboard.css HTTP/1.1" 304 -
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>py app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 914-041-571
+127.0.0.1 - - [22/May/2026 13:05:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:31] "GET /static/welcome.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:34] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:34] "GET /static/welcome.css HTTP/1.1" 304 -
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+<FileSystemSession {'_permanent': True, 'user': 'stephyhallel2002@gmail.com'}>
+127.0.0.1 - - [22/May/2026 13:05:41] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 13:05:41] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:41] "GET /static/dashboard.css HTTP/1.1" 304 -
+[(1, 'The Last Leaf', datetime.datetime(2026, 5, 21, 11, 59, 4)), (3, 'Python ', datetime.datetime(2026, 5, 21, 12, 2, 42)), (4, 'Flask ', datetime.datetime(2026, 5, 21, 12, 6)), (5, 'Electrical Machines', datetime.datetime(2026, 5, 22, 12, 39, 52))]
+127.0.0.1 - - [22/May/2026 13:05:44] "GET /viewallnotes HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:44] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:44] "GET /static/viewallnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:46] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:46] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:46] "GET /static/addnotes.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:53] "POST /updatenotes/1 HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2026 13:05:53] "GET /updatenotes/1 HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:05:53] "GET /static/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/May/2026 13:05:53] "GET /static/addnotes.css HTTP/1.1" 304 -
+
+(psnm) C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>deactivate
+C:\Users\STEPHY HALLEL\Desktop\STEPHY-F\PROJECT_SNM>
