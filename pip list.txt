@@ -1,0 +1,10 @@
+pip list
+pip freeze > requirements.txt
+mysqldump -u root -p psnm > "C:\Users\bobba\Desktop\Flask_classwork\snm2728\data.sql" (copy your c drive link)
+
+push it to GitHub
+
+git init
+git add .
+remaining 4 commands
+

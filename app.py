@@ -11,7 +11,7 @@ from stoken import  endata,dndata  # used to sign data passing through urls
 from mysql.connector import (connection)  # used to connect MySQL server
 import flask_excel as excel # used to generate excel files
 import re 
-mydb=connection.MySQLConnection(user='root',host='localhost',password='Stephy@12345',database='snm27db')
+mydb=connection.MySQLConnection(user='flaskuser',host='localhost',password='password',database='flaskdb')
 from datetime import datetime
 app=Flask(__name__)
 excel.init_excel(app)
@@ -508,4 +508,4 @@ def search():
         return redirect(url_for('dashboard'))
     
 if __name__=='__main__':
-    app.run(use_reloader=True,debug=True)   
+    app.run()   
